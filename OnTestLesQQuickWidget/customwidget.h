@@ -5,10 +5,12 @@
 
 
 
-class CustomWidget : public QWidget
+class CustomWidget : public QObject
 {
+    Q_OBJECT
+
 public:
-    CustomWidget(QWidget *parent = 0);
+    CustomWidget(QObject *parent = 0);
 
 public:
     static QWidget *__parentContainer;

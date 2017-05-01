@@ -6,10 +6,11 @@ Item {
     visible: true
     width: 640
     height: 480
+    id: lol
   //  title: qsTr("Hello World")
 
     CustomWidget {
-
+       // parent: lol
     }
 
 
